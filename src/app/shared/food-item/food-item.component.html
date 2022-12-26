@@ -1,0 +1,18 @@
+<mat-card class="bg-white" *ngIf="food_item">
+    <mat-card-content matRipple matRippleColor="#dddddd" class="food-item-top">
+        <div class="supp-holder">
+            <img alt="food" src="/assets/food/food-1.png">
+        </div>
+        <div class="label sub-item">
+            {{food_item.name}}<span>Plan name</span>
+        </div>
+        <div class="label sub-item">
+            ₹ 50,000 <span>(6 pices)</span>
+        </div>
+        <div>
+            <button mat-raised-button color="primary">Details</button>
+            <button mat-raised-button color="primary">Delete</button>
+            <button mat-raised-button color="primary">Update</button>
+        </div>
+    </mat-card-content>
+</mat-card>

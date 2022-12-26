@@ -1,0 +1,9 @@
+<app-admin-header></app-admin-header>
+<div class="container">
+    <div class="action-btn-header">   
+        <button mat-raised-button color="primary" (click)="goToAddNewPage()">  
+            <mat-icon>add_circle</mat-icon> Add New
+        </button>
+    </div>
+    <app-food-item *ngFor="let food_item of food_list; index as key" [id]="key"></app-food-item>
+</div>

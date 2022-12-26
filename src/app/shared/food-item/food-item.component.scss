@@ -1,0 +1,31 @@
+.bg-white {
+    background-color: #ffffff;
+}
+
+.food-item-top{
+    display: flex;
+    align-items: center;
+    .sub-item {
+        list-style: none;
+        flex: auto;
+    }
+    .label {
+        color: #253858;
+        font-size: 16px;
+        font-weight: 500;
+        span {
+            display: block;
+            font-size: 12px;
+            opacity: .5;
+            font-weight: normal;
+        }
+    }
+    .supp-holder {
+        display: inline-block;
+        max-width: 90px;
+        margin-right: 23px;
+        img {
+            max-width: 100%;
+        }
+    }
+}
